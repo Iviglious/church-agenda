@@ -123,11 +123,22 @@ function CreateUsualFrontPage(date, testimonies=false)
             </table>
 
             <h2>- Prelude, Greetings and Welcome</h2>
-            <h2>- Recognitions: <small>${UnderscoreWithSpace(170)}
+            <h2>- Recognitions: <small>${UnderscoreWithSpace(110)}
             (and the other leaders from the Stake that are with us today)
             </small></h2>
 
-            <h2> Annoucements (see the back)</h2>
+            <h2> Annoucements (see the back for more)</h2>
+            <table>
+                <tr>
+                    <th style="width:10%">Date</th>
+                    <th style="width:6%">Day</th>
+                    <th style="width:6%">Time</th>
+                    <th style="width:18%">Location</th>
+                    <th style="width:45%">Event</th>
+                    <th style="width:15%">Invited</th>
+                </tr>
+                ${AddRowsAndColumns(3, 6)}
+            </table>
 
             <h2>- Opening Hymn: #<normal>${Underscore(5)} Title: ${Underscore(30)}</normal></h2>
             <h2>- Invocation: <small>${Underscore(50)}</small></h2>
