@@ -10,6 +10,10 @@ function GeneratePages()
     pages.push(CreateUsualBackPage());
     pages.push(CreateUsualFrontPage("12 Jan 2025"));
     pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("19 Jan 2025"));
+    pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("26 Jan 2025"));
+    pages.push(CreateUsualBackPage());
 
 
 
