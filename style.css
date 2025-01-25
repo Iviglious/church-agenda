@@ -40,6 +40,40 @@ h2 {
     text-align: left;
 }
 
+h3 {
+    font-size: 20px;
+    text-align: center;
+}
+
+/* center align images with blury edges */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    box-shadow: 0 0 8px 8px white inset;
+}
+
+.image-blurred-edge-g {
+    background-image: url('GConf.jpg');
+    margin-left: auto;
+    margin-right: auto;
+    width: 534px;
+    height: 427px;
+    /* you need to match the shadow color to your background or image border for the desired effect*/
+    box-shadow: 0 0 18px 18px white inset;
+}
+
+.image-blurred-edge-s {
+    background-image: url('SConf.jpg');
+    margin-left: auto;
+    margin-right: auto;
+    width: 478px;
+    height: 359px;
+    /* you need to match the shadow color to your background or image border for the desired effect*/
+    box-shadow: 0 0 18px 18px white inset;
+}
+
 p {
     font-size: 20px;
 }
@@ -85,7 +119,8 @@ td.top {
     body {
         margin: 0;
         padding: 0;
-        color: indigo;
+        /* color: indigo; */
+        color: black;
     }
 
     .book {
@@ -120,4 +155,28 @@ td.top {
         margin-top: 5mm;
     }
     */
+
+    .image-blurred-edge-g {
+        background-image: url('GConf.jpg');
+        -webkit-print-color-adjust: exact; /* For WebKit browsers */
+        print-color-adjust: exact; /* For other browsers */
+        margin-left: auto;
+        margin-right: auto;
+        width: 534px;
+        height: 427px;
+        /* you need to match the shadow color to your background or image border for the desired effect*/
+        box-shadow: 0 0 18px 18px white inset;
+    }
+
+    .image-blurred-edge-s {
+        background-image: url('SConf.jpg');
+        -webkit-print-color-adjust: exact; /* For WebKit browsers */
+        print-color-adjust: exact; /* For other browsers */
+        margin-left: auto;
+        margin-right: auto;
+        width: 478px;
+        height: 359px;
+        /* you need to match the shadow color to your background or image border for the desired effect*/
+        box-shadow: 0 0 18px 18px white inset;
+    }
 }

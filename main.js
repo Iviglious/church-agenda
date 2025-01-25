@@ -6,15 +6,43 @@ function GeneratePages()
     var pages = [];
 
     // January
-    pages.push(CreateUsualFrontPage("5 Jan 2025", true));
-    pages.push(CreateUsualBackPage());
-    pages.push(CreateUsualFrontPage("12 Jan 2025"));
-    pages.push(CreateUsualBackPage());
-    pages.push(CreateUsualFrontPage("19 Jan 2025"));
-    pages.push(CreateUsualBackPage());
-    pages.push(CreateUsualFrontPage("26 Jan 2025"));
-    pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("5 Jan 2025", true)); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("12 Jan 2025")); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("19 Jan 2025")); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("26 Jan 2025")); pages.push(CreateUsualBackPage());
 
+    // February
+    pages.push(CreateUsualFrontPage("2 Feb 2025", true)); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("9 Feb 2025")); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("16 Feb 2025")); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("23 Feb 2025")); pages.push(CreateUsualBackPage());
+    
+    // March
+    pages.push(CreateUsualFrontPage("2 Mar 2025", true)); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("9 Mar 2025")); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("16 Mar 2025")); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("23 Mar 2025")); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("30 Mar 2025")); pages.push(CreateUsualBackPage());
+
+    // April
+    pages.push(CreateGConfFrontPage("6 Apr 2025")); pages.push(CreateBlankBackPage());
+    pages.push(CreateUsualFrontPage("13 Apr 2025", true)); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("20 Apr 2025")); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("27 Apr 2025")); pages.push(CreateUsualBackPage());
+
+    // May
+    pages.push(CreateUsualFrontPage("4 May 2025", true)); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("11 May 2025")); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("18 May 2025")); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("25 May 2025")); pages.push(CreateUsualBackPage());
+    
+    // June
+    pages.push(CreateSConfFrontPage("1 Jun 2025")); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("8 Jun 2025")); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("15 Jun 2025")); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("22 Jun 2025")); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("29 Jun 2025")); pages.push(CreateUsualBackPage());
+    
 
 
     // Append all pages to the book
@@ -230,6 +258,63 @@ function CreateUsualBackPage()
 
         </div>
     `;
+    return page;
+}
+
+// Function which creates a HTML element of GConf Front page
+function CreateGConfFrontPage(date)
+{
+    var page = document.createElement("div");
+    page.className = "page";
+    page.innerHTML = `
+        <div class="page">
+            <h1>General Conference</h1>
+            <h3>${date}</h3>
+            </br>
+            </br>
+            </br>
+            </br>
+            </br>
+            </br>
+            <div class="image-blurred-edge-g"></div>
+        </div>
+    `;
+
+    return page;
+}
+
+// Function which creates a HTML element of SConf Front page
+function CreateSConfFrontPage(date)
+{
+    var page = document.createElement("div");
+    page.className = "page";
+    page.innerHTML = `
+        <div class="page">
+            <h1>Stake Conference</h1>
+            <h3>${date}</h3>
+            </br>
+            </br>
+            </br>
+            </br>
+            </br>
+            </br>
+            <div class="image-blurred-edge-s"></div>
+        </div>
+    `;
+
+    return page;
+}
+
+// Function which creates a HTML element of Blank Back page
+function CreateBlankBackPage()
+{
+    var page = document.createElement("div");
+    page.className = "page";
+    page.innerHTML = `
+        <div class="page">
+        </div>
+    `;
+
     return page;
 }
 
