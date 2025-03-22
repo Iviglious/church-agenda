@@ -176,8 +176,8 @@ function CreateUsualFrontPage(date, testimonies=false)
             <h2>- Invocation: <small>${Underscore(50)}</small></h2>
             </br>
 
-            <h2> Stake Business <normal>- confirmations, callings (see the back side)</normal></h2>
-            <h2> Ward Business <normal>- presented by ${Underscore(15)}</normal></h2>
+            <h2> Stake Business <normal>- presented by ${Underscore(15)}</normal></h2>
+            <h2> Ward Business <normal>- confirmations, callings (see the back side)</normal></h2>
             
             <h2>- Sacrament Hymn: #<normal>${Underscore(5)} Title: ${Underscore(30)}</normal></h2>
             <h2>- (Blessing of the Sacrament)</h2>
