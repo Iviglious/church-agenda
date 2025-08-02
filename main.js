@@ -4,7 +4,7 @@ function GeneratePages()
 {
     var book = document.getElementById("book");
     var pages = [];
-
+/*
     // January
     pages.push(CreateUsualFrontPage("5 Jan 2025", true)); pages.push(CreateUsualBackPage());
     pages.push(CreateUsualFrontPage("12 Jan 2025")); pages.push(CreateUsualBackPage());
@@ -42,6 +42,24 @@ function GeneratePages()
     pages.push(CreateUsualFrontPage("15 Jun 2025")); pages.push(CreateUsualBackPage());
     pages.push(CreateUsualFrontPage("22 Jun 2025")); pages.push(CreateUsualBackPage());
     pages.push(CreateUsualFrontPage("29 Jun 2025")); pages.push(CreateUsualBackPage());
+    */
+
+    // July
+    /*
+    pages.push(CreateUsualFrontPage("6 Jul 2025", true)); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("13 Jul 2025")); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("20 Jul 2025")); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("27 Jul 2025")); pages.push(CreateUsualBackPage());
+    */
+    
+    // August
+    pages.push(CreateUsualFrontPage("3 Aug 2025", true)); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("10 Aug 2025")); pages.push(CreateUsualBackPage()); 
+    pages.push(CreateUsualFrontPage("17 Aug 2025")); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("24 Aug 2025")); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("31 Aug 2025")); pages.push(CreateUsualBackPage());
+    
+    // September
     
 
 
