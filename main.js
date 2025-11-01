@@ -50,7 +50,7 @@ function GeneratePages()
     pages.push(CreateUsualFrontPage("13 Jul 2025")); pages.push(CreateUsualBackPage());
     pages.push(CreateUsualFrontPage("20 Jul 2025")); pages.push(CreateUsualBackPage());
     pages.push(CreateUsualFrontPage("27 Jul 2025")); pages.push(CreateUsualBackPage());
-    */
+    
     
     // August
     pages.push(CreateUsualFrontPage("3 Aug 2025", true)); pages.push(CreateUsualBackPage());
@@ -60,7 +60,29 @@ function GeneratePages()
     pages.push(CreateUsualFrontPage("31 Aug 2025")); pages.push(CreateUsualBackPage());
     
     // September
+    pages.push(CreateUsualFrontPage("7 Sep 2025", true)); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("14 Sep 2025")); pages.push(CreateUsualBackPage()); 
+    pages.push(CreateUsualFrontPage("21 Sep 2025")); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("28 Sep 2025")); pages.push(CreateUsualBackPage());
     
+
+    // October
+    pages.push(CreateUsualFrontPage("19 Oct 2025", true)); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("26 Oct 2025")); pages.push(CreateUsualBackPage());
+    */
+
+    // November
+    pages.push(CreateUsualFrontPage("2 Nov 2025", true)); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("9 Nov 2025")); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("16 Nov 2025")); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("23 Nov 2025")); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("30 Nov 2025")); pages.push(CreateUsualBackPage());
+
+    // December
+    pages.push(CreateUsualFrontPage("7 Dec 2025", true)); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("14 Dec 2025")); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("21 Dec 2025")); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("28 Dec 2025")); pages.push(CreateUsualBackPage());
 
 
     // Append all pages to the book
