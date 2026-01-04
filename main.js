@@ -4,85 +4,87 @@ function GeneratePages()
 {
     var book = document.getElementById("book");
     var pages = [];
-/*
+
     // January
-    pages.push(CreateUsualFrontPage("5 Jan 2025", true)); pages.push(CreateUsualBackPage());
-    pages.push(CreateUsualFrontPage("12 Jan 2025")); pages.push(CreateUsualBackPage());
-    pages.push(CreateUsualFrontPage("19 Jan 2025")); pages.push(CreateUsualBackPage());
-    pages.push(CreateUsualFrontPage("26 Jan 2025")); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("4 Jan 2026", true)); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("11 Jan 2026")); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("18 Jan 2026")); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("25 Jan 2026")); pages.push(CreateUsualBackPage());
 
     // February
-    pages.push(CreateUsualFrontPage("2 Feb 2025", true)); pages.push(CreateUsualBackPage());
-    pages.push(CreateUsualFrontPage("9 Feb 2025")); pages.push(CreateUsualBackPage());
-    pages.push(CreateUsualFrontPage("16 Feb 2025")); pages.push(CreateUsualBackPage());
-    pages.push(CreateUsualFrontPage("23 Feb 2025")); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("1 Feb 2026", true)); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("8 Feb 2026")); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("15 Feb 2026")); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("22 Feb 2026")); pages.push(CreateUsualBackPage());
     
     // March
-    pages.push(CreateUsualFrontPage("2 Mar 2025", true)); pages.push(CreateUsualBackPage());
-    pages.push(CreateUsualFrontPage("9 Mar 2025")); pages.push(CreateUsualBackPage());
-    pages.push(CreateUsualFrontPage("16 Mar 2025")); pages.push(CreateUsualBackPage());
-    pages.push(CreateUsualFrontPage("23 Mar 2025")); pages.push(CreateUsualBackPage());
-    pages.push(CreateUsualFrontPage("30 Mar 2025")); pages.push(CreateUsualBackPage());
-
+    pages.push(CreateUsualFrontPage("1 Mar 2026", true)); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("8 Mar 2026")); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("15 Mar 2026")); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("22 Mar 2026")); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("30 Mar 2026")); pages.push(CreateUsualBackPage());
+/*
     // April
-    pages.push(CreateGConfFrontPage("6 Apr 2025")); pages.push(CreateBlankBackPage());
-    pages.push(CreateUsualFrontPage("13 Apr 2025", true)); pages.push(CreateUsualBackPage());
-    pages.push(CreateUsualFrontPage("20 Apr 2025")); pages.push(CreateUsualBackPage());
-    pages.push(CreateUsualFrontPage("27 Apr 2025")); pages.push(CreateUsualBackPage());
+    pages.push(CreateGConfFrontPage("6 Apr 2026")); pages.push(CreateBlankBackPage());
+    pages.push(CreateUsualFrontPage("13 Apr 2026", true)); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("20 Apr 2026")); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("27 Apr 2026")); pages.push(CreateUsualBackPage());
 
     // May
-    pages.push(CreateUsualFrontPage("4 May 2025", true)); pages.push(CreateUsualBackPage());
-    pages.push(CreateUsualFrontPage("11 May 2025")); pages.push(CreateUsualBackPage());
-    pages.push(CreateUsualFrontPage("18 May 2025")); pages.push(CreateUsualBackPage());
-    pages.push(CreateUsualFrontPage("25 May 2025")); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("4 May 2026", true)); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("11 May 2026")); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("18 May 2026")); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("25 May 2026")); pages.push(CreateUsualBackPage());
     
     // June
-    pages.push(CreateSConfFrontPage("1 Jun 2025")); pages.push(CreateUsualBackPage());
-    pages.push(CreateUsualFrontPage("8 Jun 2025")); pages.push(CreateUsualBackPage());
-    pages.push(CreateUsualFrontPage("15 Jun 2025")); pages.push(CreateUsualBackPage());
-    pages.push(CreateUsualFrontPage("22 Jun 2025")); pages.push(CreateUsualBackPage());
-    pages.push(CreateUsualFrontPage("29 Jun 2025")); pages.push(CreateUsualBackPage());
+    pages.push(CreateSConfFrontPage("1 Jun 2026")); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("8 Jun 2026")); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("15 Jun 2026")); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("22 Jun 2026")); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("29 Jun 2026")); pages.push(CreateUsualBackPage());
     */
 
     // July
     /*
-    pages.push(CreateUsualFrontPage("6 Jul 2025", true)); pages.push(CreateUsualBackPage());
-    pages.push(CreateUsualFrontPage("13 Jul 2025")); pages.push(CreateUsualBackPage());
-    pages.push(CreateUsualFrontPage("20 Jul 2025")); pages.push(CreateUsualBackPage());
-    pages.push(CreateUsualFrontPage("27 Jul 2025")); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("6 Jul 2026", true)); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("13 Jul 2026")); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("20 Jul 2026")); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("27 Jul 2026")); pages.push(CreateUsualBackPage());
     
     
     // August
-    pages.push(CreateUsualFrontPage("3 Aug 2025", true)); pages.push(CreateUsualBackPage());
-    pages.push(CreateUsualFrontPage("10 Aug 2025")); pages.push(CreateUsualBackPage()); 
-    pages.push(CreateUsualFrontPage("17 Aug 2025")); pages.push(CreateUsualBackPage());
-    pages.push(CreateUsualFrontPage("24 Aug 2025")); pages.push(CreateUsualBackPage());
-    pages.push(CreateUsualFrontPage("31 Aug 2025")); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("3 Aug 2026", true)); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("10 Aug 2026")); pages.push(CreateUsualBackPage()); 
+    pages.push(CreateUsualFrontPage("17 Aug 2026")); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("24 Aug 2026")); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("31 Aug 2026")); pages.push(CreateUsualBackPage());
     
     // September
-    pages.push(CreateUsualFrontPage("7 Sep 2025", true)); pages.push(CreateUsualBackPage());
-    pages.push(CreateUsualFrontPage("14 Sep 2025")); pages.push(CreateUsualBackPage()); 
-    pages.push(CreateUsualFrontPage("21 Sep 2025")); pages.push(CreateUsualBackPage());
-    pages.push(CreateUsualFrontPage("28 Sep 2025")); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("7 Sep 2026", true)); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("14 Sep 2026")); pages.push(CreateUsualBackPage()); 
+    pages.push(CreateUsualFrontPage("21 Sep 2026")); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("28 Sep 2026")); pages.push(CreateUsualBackPage());
     
 
     // October
-    pages.push(CreateUsualFrontPage("19 Oct 2025", true)); pages.push(CreateUsualBackPage());
-    pages.push(CreateUsualFrontPage("26 Oct 2025")); pages.push(CreateUsualBackPage());
-    */
+    pages.push(CreateUsualFrontPage("19 Oct 2026", true)); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("26 Oct 2026")); pages.push(CreateUsualBackPage());
+    
 
     // November
-    pages.push(CreateUsualFrontPage("2 Nov 2025", true)); pages.push(CreateUsualBackPage());
-    pages.push(CreateUsualFrontPage("9 Nov 2025")); pages.push(CreateUsualBackPage());
-    pages.push(CreateUsualFrontPage("16 Nov 2025")); pages.push(CreateUsualBackPage());
-    pages.push(CreateUsualFrontPage("23 Nov 2025")); pages.push(CreateUsualBackPage());
-    pages.push(CreateUsualFrontPage("30 Nov 2025")); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("2 Nov 2026", true)); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("9 Nov 2026")); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("16 Nov 2026")); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("23 Nov 2026")); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("30 Nov 2026")); pages.push(CreateUsualBackPage());
 
     // December
-    pages.push(CreateUsualFrontPage("7 Dec 2025", true)); pages.push(CreateUsualBackPage());
-    pages.push(CreateUsualFrontPage("14 Dec 2025")); pages.push(CreateUsualBackPage());
-    pages.push(CreateUsualFrontPage("21 Dec 2025")); pages.push(CreateUsualBackPage());
-    pages.push(CreateUsualFrontPage("28 Dec 2025")); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("7 Dec 2026", true)); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("14 Dec 2026")); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("21 Dec 2026")); pages.push(CreateUsualBackPage());
+    pages.push(CreateUsualFrontPage("28 Dec 2026")); pages.push(CreateUsualBackPage());
+    */
+
 
 
     // Append all pages to the book
